@@ -45,3 +45,12 @@ console.log(combine)
 
 
 const statement = 'I am a hard working person'
+let splitStatement = statement.split(" ")
+console.log(splitStatement)
+let reverse_state = [];
+for(state of splitStatement){
+    reverse_state.unshift(state);
+}
+console.log(reverse_state)
+let final_reverse = reverse_state.join(" ")
+console.log(final_reverse)
